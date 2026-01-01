@@ -1,0 +1,7 @@
+Path Delay Calculation
+
+A → NAND(2) → NAND(1) = 3 ns
+B → NOT(1) → AND(1) → NAND(1) = 3 ns
+E/F → NOR(3) → NAND(1) = 4 ns  ← Critical Path
+
+Final Output Delay Y = 4 ns
